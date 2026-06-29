@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+
+	<!-- Google Maps API Key -->
+	<key>GMS_API_KEY</key>
+	<string>AIzaSyCurf0k1ZnYq6PmqEbUrObjuT2HD0a6hL8</string>
+
+	<!-- Location Permissions -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs your location to display nearby places on the map</string>
+
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs your location to display nearby places on the map</string>
+
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app needs your location to display nearby places on the map</string>
+
+	<!-- Calendar Permissions -->
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app needs access to your calendar to display upcoming events and occasions.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>This app needs full access to your calendar to display and manage upcoming events.</string>
+
+	<!-- Background Location -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+</dict>
+</plist>

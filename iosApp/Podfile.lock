@@ -1,0 +1,31 @@
+PODS:
+  - Google-Maps-iOS-Utils (6.1.0):
+    - GoogleMaps (~> 9.0)
+  - GoogleMaps (9.2.0):
+    - GoogleMaps/Maps (= 9.2.0)
+  - GoogleMaps/Maps (9.2.0)
+  - shared (1.0):
+    - GoogleMaps (= 9.2.0)
+
+DEPENDENCIES:
+  - Google-Maps-iOS-Utils (~> 6.0)
+  - GoogleMaps (= 9.2.0)
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  Google-Maps-iOS-Utils: 0a484b05ed21d88c9f9ebbacb007956edd508a96
+  GoogleMaps: 634ec3ca99698b31ca2253d64f017217d70cfb38
+  shared: eff340d5364c3b94c60e67988657671520f22a0c
+
+PODFILE CHECKSUM: 2e557a27964a714cae3868debd07c11928d0b461
+
+COCOAPODS: 1.16.2

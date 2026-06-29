@@ -1,0 +1,13 @@
+package com.example.auriapplication.store
+
+import com.example.auriapplication.appContext
+import com.example.auriapplication.screen.nearby.Place
+import io.github.xxfast.kstore.KStore
+import io.github.xxfast.kstore.file.storeOf
+import kotlinx.io.files.Path
+
+actual fun getFavoritesStore(): KStore<List<Place>> {
+    val filesDir = appContext.filesDir.absolutePath
+    val path = Path(filesDir, "favorite_places.json")
+    return storeOf(file = path, default = emptyList())
+}
